@@ -1,0 +1,83 @@
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+
+/* Calss */
+.text-white {
+    color: white;
+}
+.text-primary {
+    color: var(--ion-color-primary);
+}
+.bg-primary {
+    background-color: var(--ion-color-primary);
+}
+.text-secondary {
+    color: var(--ion-color-medium);
+}
+.text-white {
+    color: white;
+}
+.text-danger {
+    color: var(--ion-color-danger);
+}
+.bg-grey {
+    background-color: var(--ion-color-light-shade);
+}
+.pointer {
+    cursor: pointer;
+}
+.text-small {
+    font-size: 13px;
+}
+.text-medium {
+    font-size: 15px;
+}
+.bold {
+    font-weight: bold;
+}
+.border-danger {
+    border: 1px solid var(--ion-color-danger);
+}
+.m-0 {
+    margin: 0;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+
+/* Input Control */
+.input-control {
+    position: relative;
+}
+.input-control .input-icon-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.verification-notic {
+    padding: 5px 15px;
+    line-height: 25px;
+}
+
+.shadow-1 {
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.shadow-2 {
+    box-shadow: 0 1px 5px #0003, 0 2px 2px #00000024, 0 3px 1px -2px #0000001f;
+}

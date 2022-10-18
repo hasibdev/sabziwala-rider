@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ion-button {
+    --box-shadow: 0;
+    text-transform: none;
+}
+
+ion-input, ion-select {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+ion-label {
+    color: #444;
+}

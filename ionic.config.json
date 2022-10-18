@@ -1,0 +1,7 @@
+{
+  "name": "sabziwala-rider",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
